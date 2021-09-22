@@ -51907,7 +51907,7 @@ z4:function(a,b){return this.a4Z(a,b)},
 a4Z:function(a,b){var s=0,r=P.w(t.U),q,p=this
 var $async$z4=P.q(function(c,d){if(c===1)return P.t(d,r)
 while(true)switch(s){case 0:s=3
-return P.x(p.a.da(0,"/api/v1/config/get-zone-id?lat=37.090240&lng=-95.712891"),$async$z4)
+return P.x(p.a.da(0,"/api/v1/config/get-zone-id?lat="+H.b(a)+"&lng="+H.b(b)),$async$z4)
 case 3:q=d
 s=1
 break
